@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\frontend",
+    "\\frontend\\public",
+    "\\frontend\\src\\components",
+    "\\frontend\\src\\components\\MessageInput",
+    "\\frontend\\src\\components\\NewTicketModal",
+    "\\frontend\\src\\pages",
+    "\\frontend\\src\\pages\\Tickets",
+    "\\frontend\\src\\translate",
+    "\\frontend\\src\\translate\\languages"
+  ],
+  "SelectedNode": "\\frontend",
+  "PreviewInSolutionExplorer": false
+}

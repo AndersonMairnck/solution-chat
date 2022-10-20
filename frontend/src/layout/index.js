@@ -244,9 +244,9 @@ const LoggedInLayout = ({ children }) => {
             className={classes.title}
           >
             {system.name}
-            <span className={classes.systemCss}>
-              {"(v"}{system.version}{")"}
-            </span>
+            {/*<span className={classes.systemCss}>*/}
+            {/*  {"(v"}{system.version}{")"}*/}
+            {/*</span>*/}
           </Typography>
           {user.id && <NotificationsPopOver />}
 

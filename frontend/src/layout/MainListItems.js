@@ -19,16 +19,20 @@ import CodeIcon from '@material-ui/icons/Code';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import VpnKeyRoundedIcon from '@material-ui/icons/VpnKeyRounded';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
+import SyncDisabledIcon from '@material-ui/icons/SyncDisabled';
+import EqualizerIcon from '@material-ui/icons/Equalizer';
 
 import { i18n } from "../translate/i18n";
 import { WhatsAppsContext } from "../context/WhatsApp/WhatsAppsContext";
 import { AuthContext } from "../context/Auth/AuthContext";
 import { Can } from "../components/Can";
 import { makeStyles } from "@material-ui/core/styles";
+import AccountTreeTwoToneIcon from '@material-ui/icons/AccountTreeTwoTone';
+
 
 const useStyles = makeStyles(theme => ({
-	icon: {
-		color: theme.palette.secondary.main
+    icon: {
+        color: theme.palette.secondary.main
 	},
 }));
 
@@ -86,8 +90,8 @@ const MainListItems = (props) => {
     <div onClick={drawerClose}>
       <ListItemLink
         to="/"
-        primary="Dashboard"
-        icon={<DashboardOutlinedIcon />}
+        primary="Painel de Controle"
+              icon={<EqualizerIcon />}
       />
       <ListItemLink
         to="/tickets"
@@ -123,7 +127,7 @@ const MainListItems = (props) => {
               primary={i18n.t("mainDrawer.listItems.connections")}
               icon={
                 <Badge badgeContent={connectionWarning ? "!" : 0} color="error">
-                  <SyncAltIcon />
+                      <SyncDisabledIcon />
                 </Badge>
               }
             />
@@ -132,10 +136,11 @@ const MainListItems = (props) => {
               primary={i18n.t("mainDrawer.listItems.users")}
               icon={<PeopleAltOutlinedIcon />}
             />
-            <ListItemLink
+                <ListItemLink
+                    
               to="/queues"
               primary={i18n.t("mainDrawer.listItems.queues")}
-              icon={<AccountTreeOutlinedIcon />}
+                icon={<AccountTreeTwoToneIcon />}
             />
             <ListItemLink
               to="/settings"

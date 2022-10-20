@@ -34,12 +34,12 @@ import logo from '../../assets/logo.png';
 const Copyright = () => {
 	return (
 		<Typography variant="body2" color="textSecondary" align="center">
-			© {new Date().getFullYear()}
-			{" - "}
-			<Link color="inherit" href="https://github.com/rtenorioh/Press-Ticket">
-				{system.name} - v{system.version}
-			</Link>
-			{"."}
+			{/*© {new Date().getFullYear()}*/}
+			{/*{" - "}*/}
+			{/*<Link color="inherit" href="https://github.com/rtenorioh/Press-Ticket">*/}
+			{/*	{system.name} - v{system.version}*/}
+			{/*</Link>*/}
+			{/*{"."}*/}
 		</Typography>
 	);
 };

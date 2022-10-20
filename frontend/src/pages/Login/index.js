@@ -11,7 +11,8 @@ import {
   Container,
   InputAdornment,
   IconButton,
-  Link
+  Link,
+  Avatar
 } from '@material-ui/core';
 
 import { Visibility, VisibilityOff } from '@material-ui/icons';
@@ -25,11 +26,11 @@ import logo from '../../assets/logo.png';
 const Copyright = () => {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      © {new Date().getFullYear()}
+      {/*© {new Date().getFullYear()}*/}
       {" - "}
-      <Link color="inherit" href="https://github.com/rtenorioh/Press-Ticket">
-        {system.name} - v{system.version}
-      </Link>
+      {/*<Link color="inherit" href="https://github.com/rtenorioh/Press-Ticket">*/}
+      {/*{  {system.name} - v{system.version}}*/}
+      {/*</Link>*/}
       {"."}
     </Typography>
   );
@@ -72,6 +73,7 @@ const Login = () => {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
+   
         <img alt="logo" src={logo}></img>
         <Typography component="h1" variant="h5">
           {i18n.t("login.title")}

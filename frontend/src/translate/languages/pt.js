@@ -25,7 +25,7 @@ const messages = {
         },
         buttons: {
           submit: "Fazer login",
-          register: "Não tem um conta? Cadastre-se!",
+          register: "Nâo tem uma conta? Cadastre-se!",
         },
       },
       auth: {
@@ -290,7 +290,7 @@ const messages = {
           message: "Mensagem de",
         },
         tabs: {
-          open: { title: "Inbox" },
+          open: { title: "Caixa de entrada" },
           closed: { title: "Resolvidos" },
           search: { title: "Busca" },
         },
