@@ -49,13 +49,12 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
   },
   welcomeMsg: {
-      backgroundColor: "#eee",
-      display: "flex",
-      justifyContent: "space-evenly",
-      alignItems: "center",
-      height: "100%",
+    backgroundColor: theme.palette.background.paper,
+    display: "flex",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    height: "100%",
       textAlign: "center",
-      borderRadius: 0,
       
   },
   ticketsManager: {},
