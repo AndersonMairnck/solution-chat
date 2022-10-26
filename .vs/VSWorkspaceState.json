@@ -1,14 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\backend",
     "\\frontend",
     "\\frontend\\src",
-    "\\frontend\\src\\layout",
     "\\frontend\\src\\pages",
-    "\\frontend\\src\\pages\\Queues",
-    "\\frontend\\src\\pages\\Tickets",
-    "\\frontend\\src\\routes"
+    "\\frontend\\src\\pages\\Signup",
+    "\\frontend\\src\\pages\\Tickets"
   ],
-  "SelectedNode": "\\frontend\\src\\pages\\Tickets\\index.js",
+  "SelectedNode": "\\backend",
   "PreviewInSolutionExplorer": false
 }
