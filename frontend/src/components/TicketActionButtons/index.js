@@ -87,7 +87,7 @@ const TicketActionButtons = ({ ticket }) => {
 						loading={loading}
 						size="small"
 						variant="contained"
-						color="primary"
+						color="secundary"
 						onClick={e => handleUpdateTicketStatus(e, "closed", user?.id)}
 					>
 						{i18n.t("messagesList.header.buttons.resolve")}

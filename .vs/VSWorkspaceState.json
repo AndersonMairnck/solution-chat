@@ -1,13 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend",
     "\\frontend",
     "\\frontend\\src",
-    "\\frontend\\src\\pages",
+    "\\frontend\\src\\pages\\Api",
+    "\\frontend\\src\\pages\\ApiDocs",
+    "\\frontend\\src\\pages\\ApiKey",
+    "\\frontend\\src\\pages\\Connections",
+    "\\frontend\\src\\pages\\Settings",
     "\\frontend\\src\\pages\\Signup",
-    "\\frontend\\src\\pages\\Tickets"
+    "\\frontend\\src\\pages\\Users"
   ],
-  "SelectedNode": "\\backend",
+  "SelectedNode": "\\frontend\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
