@@ -7,7 +7,8 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Badge from "@material-ui/core/Badge";
 import MoveToInboxIcon from "@material-ui/icons/MoveToInbox";
-import HourglassEmptyRoundedIcon from "@material-ui/icons/HourglassEmptyRounded";
+
+
 import AllInboxRoundedIcon from "@material-ui/icons/AllInboxRounded";
 
 import FormControlLabel from "@material-ui/core/FormControlLabel";
@@ -23,6 +24,11 @@ import { AuthContext } from "../../context/Auth/AuthContext";
 import { Can } from "../Can";
 import TicketsQueueSelect from "../TicketsQueueSelect";
 import { Button } from "@material-ui/core";
+import HeadsetMicIcon from '@material-ui/icons/HeadsetMic';
+import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
+
+import HowToRegTwoToneIcon from '@material-ui/icons/HowToRegTwoTone';
+
 
 const useStyles = makeStyles((theme) => ({
   ticketsWrapper: {
@@ -177,14 +183,17 @@ const TicketsManager = () => {
           aria-label="icon label tabs example"
         >
           <Tab
+         
             value={"open"}
-            icon={<MoveToInboxIcon />}
+            icon={<HeadsetMicIcon  />}
             label={i18n.t("tickets.tabs.open.title")}
             classes={{ root: classes.tab }}
           />
+
+          
           <Tab
-            value={"pending"}
-            icon={<HourglassEmptyRoundedIcon />}
+            value={"pending"} //aguardado
+            icon={<AccessAlarmIcon/>}
             label={
               <Badge
                 className={classes.badge}
@@ -198,7 +207,7 @@ const TicketsManager = () => {
           />
           <Tab
             value={"closed"}
-            icon={<AllInboxRoundedIcon />}
+            icon={<HowToRegTwoToneIcon/>}
             label={i18n.t("tickets.tabs.closed.title")}
             classes={{ root: classes.tab }}
           />
